@@ -1,0 +1,6 @@
+step 1:- require nodemailer
+step 2:- use createTransport() function from nodemailer and store into variable like transport and put service & auth
+step 3:- specify service(like gmail) and auth(like username:email-from and App_password)
+
+step 4:- create one object msg and store to,from mail & subject, text
+step 5:- use sendMail function from transport and pass msg object ,&& call bacck function
