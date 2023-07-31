@@ -14,7 +14,7 @@ let transport = mailer.createTransport({
 let messageObj = {
     From:'user@gmail.com',
     to:'recieveremail@gmail.com',
-    subject:'Dil ❤❤ ka Matter hai',
+    subject:'write subject message',
     text:` 
        write your message 
     `
